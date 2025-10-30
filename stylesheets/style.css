@@ -30,7 +30,7 @@ body {
 
 .text-composition {
   color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 203px;
   font-weight: 900;
   letter-spacing: 20px;
@@ -113,7 +113,7 @@ body {
   top: 970px;
   left: 24px;
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 34px;
   font-weight: 800;
   line-height: normal;
@@ -201,7 +201,7 @@ h2 {
 h3 {
   position: absolute;
   top: 0px;
-  left: 600px;
+  left: 630px;
   width: 452px;
   height: 104px;
   color: #222;
@@ -314,7 +314,7 @@ h3 {
   height: 930px;
   position: relative;
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 95px;
 }
 
 .glyphs {
@@ -322,13 +322,221 @@ h3 {
   position: relative;
   grid-template-columns: repeat(3, min-content);
   gap: 60px 130px;
-  top: 210px;
+  top: 185px;
   left: 40px;
 }
 
 .screen-4 {
-  height: 1610px;
+  height: 545px;
   position: relative;
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 130px;
+}
+
+.screen4__text {
+  position: absolute;
+  top: 160px;
+  left: 635px;
+  width: 690px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+}
+
+.screen4__text p {
+  margin: 0 0 14px 0;
+}
+
+.screen4__text p:last-child {
+  margin-bottom: 0;
+}
+
+.screen4__triangle {
+  position: absolute;
+  top: -85px;
+  left: 30px;
+}
+
+.screen4__triangle2 {
+  position: absolute;
+  top: 330px;
+  left: 135px;
+}
+
+.screen-5 {
+  height: 780px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 113px;
+}
+
+.text-composition2 {
+  position: absolute;
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 186px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+  letter-spacing: 18px;
+}
+
+.screen-5-composition--1 {
+  top: -33px;
+  left: -131px;
+}
+
+.screen-5-composition--2 {
+  top: -33px;
+  left: 1259px;
+}
+
+.screen-5-composition--3 {
+  top: 213px;
+  left: -920px;
+}
+
+.screen-5-composition--4 {
+  top: 213px;
+  left: 471px;
+}
+
+.screen-5-composition--5 {
+  top: 460px;
+  left: -636px;
+}
+
+.screen-5-composition--6 {
+  top: 460px;
+  left: 754px;
+}
+
+.screen-5_letter1 {
+  position: absolute;
+  top: 5176px;
+  left: 825px;
+}
+
+.screen-5_letter2 {
+  position: absolute;
+  top: 5176px;
+  left: 1506px;
+}
+
+.screen-5_letter3 {
+  position: absolute;
+  top: 5072px;
+  left: 1506px;
+}
+
+.screen-5_letter4 {
+  position: absolute;
+  top: 149px;
+  left: 46px;
+}
+
+.screen-5_letter5 {
+  position: absolute;
+  top: 147px;
+  left: 206px;
+}
+
+.screen-5_letter6 {
+  position: absolute;
+  top: 147px;
+  left: 1273px;
+}
+
+.screen-5_letter7 {
+  position: absolute;
+  top: 393px;
+  left: 324px;
+}
+
+.screen-5_letter8 {
+  position: absolute;
+  top: 393px;
+  left: 1064px;
+}
+
+.screen-5_letter9 {
+  position: absolute;
+  top: 393px;
+  left: 1319px;
+}
+
+.screen-5_letter10 {
+  position: absolute;
+  top: 640px;
+  left: 212px;
+}
+
+.screen-5_letter11 {
+  position: absolute;
+  top: 640px;
+  left: 472px;
+}
+
+.screen-5_letter12 {
+  position: absolute;
+  top: 640px;
+  left: 1227px;
+}
+
+.screen-6 {
+  height: 840px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 113px;
+}
+
+.screen6__text {
+  position: absolute;
+  top: 4px;
+  left: 998px;
+  width: 690px;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+}
+
+.screen-5_signboard {
+  position: absolute;
+  top: 170px;
+  left: -2px;
+}
+
+.screen6__bigtext {
+  position: absolute;
+  color: #222;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 120%; 
+  letter-spacing: 9px;
+  top: 150px;
+  left: 355px;
+}
+
+.screen6__smalltext {
+  position: absolute;
+  color: #222;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 120%;
+  letter-spacing: 3px;
+  top: 268px;
+  left: 1027px;
 }
