@@ -1,0 +1,5 @@
+* {
+    box-sizing: border-box; /* Чтобы padding и border не увеличивали ширину элемента */
+    margin: 0;
+    padding: 0;
+}
