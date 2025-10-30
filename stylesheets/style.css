@@ -488,7 +488,7 @@ h3 {
 }
 
 .screen-6 {
-  height: 840px;
+  height: 600px;
   position: relative;
   overflow: hidden;
   margin-top: 113px;
@@ -507,10 +507,16 @@ h3 {
   letter-spacing: 1.2px;
 }
 
-.screen-5_signboard {
+.screen-6_signboard {
   position: absolute;
   top: 170px;
   left: -2px;
+}
+
+.screen-6_signboard2 {
+  position: absolute;
+  top: 430px;
+  left: 1184px;
 }
 
 .screen6__bigtext {
@@ -540,3 +546,312 @@ h3 {
   top: 268px;
   left: 1027px;
 }
+
+.screen6__bigtext2 {
+  position: absolute;
+  color: #222;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; 
+  letter-spacing: 9px;
+  top: 415px;
+  left: 51px;
+}
+
+.screen6__smalltext2 {
+  position: absolute;
+  color: #222;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 120%; /* 36px */
+  letter-spacing: 3px;
+  top: 533px;
+  left: 753px;
+}
+
+.screen-7 {
+  height: 920px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 120px;
+}
+
+.screen-7_moon {
+  position: absolute;
+  top: 308px;
+  left: -15px;
+}
+
+.screen-7_moon2 {
+  position: absolute;
+  top: 330px;
+  left: 60px;
+}
+
+.screen-7_elipce {
+  position: absolute;
+  top: 361px;
+  left: 115px;
+}
+
+.screen-7_moon3 {
+  position: absolute;
+  top: 330px;
+  left: 155px;
+  transform: rotate(180deg);
+}
+
+.screen-7_moon4 {
+  position: absolute;
+  top: 308px;
+  left: 222px;
+}
+
+.screen-7_moon5 {
+  position: absolute;
+  top: 257px;
+  left: 317px;
+}
+
+.screen-7_moon6 {
+  position: absolute;
+  top: 216px;
+  left: 452px;
+}
+
+.screen-7_moon7 {
+  position: absolute;
+  top: 166px;
+  left: 673px;
+}
+
+.screen-7_moon8 {
+  position: absolute;
+  top: 108px;
+  left: 953px;
+}
+
+.screen-7_moon9 {
+  position: absolute;
+  top: 0px;
+  left: 1290px;
+}
+
+.horizontal-grid {
+  display: grid;
+  position: absolute;
+  top: 703px;
+  grid-template-columns: repeat(9, min-content);
+  gap: 0 70px; 
+  justify-content: start; 
+  align-items: center;
+}
+
+.screen-8 {
+  height: 745px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 120px;
+}
+
+.h4_1 {
+  position: absolute;
+  top: 164px;
+  left: 120px;
+  width: 452px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 34.253px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; 
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.screen-8_text {
+  position: absolute;
+  top: 214px;
+  left: 122px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 1.2px;
+}
+
+.screen-8_textblock {
+  gap: 30px;
+}
+
+.letter-grid {
+  display: grid;
+  position: absolute;
+  top: 317px;
+  left: 118px;
+  grid-template-columns: repeat(6, min-content);
+  gap: 0 58px; 
+  justify-content: start; 
+}
+
+.screen-8_arrow3 {
+  position: absolute;
+  top: 181px;
+  left: 900px;
+  transform: rotate(180deg);
+}
+
+.screen-8_arrow4 {
+  position: absolute;
+  top: 500px;
+  left: 122px;
+}
+
+.h4_2 {
+  position: absolute;
+  top: 485px;
+  left: 589px;
+  width: 452px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 34.253px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; 
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.letter-grid2 {
+  display: grid;
+  position: absolute;
+  top: 640px;
+  left: 589px;
+  grid-template-columns: repeat(6, min-content);
+  gap: 0 58px; 
+  justify-content: start; 
+}
+
+.screen-8_text2 {
+  position: absolute;
+  top: 534px;
+  left: 589px;
+  color: #222;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 1.2px;
+}
+
+.screen-9 {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 120px;
+}
+
+.screen-last__moon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.screen-last__text {
+  position: absolute;
+  top: 135px;
+  left: 150px;
+  width: 1133px;
+  height: 34px;
+  color: #222;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2; 
+  letter-spacing: 0.81px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text-highlight_last {
+  color: #FFF;
+}
+
+.screen-last__subtitle {
+  position: absolute;
+  top: 187px;
+  left: 419px;
+  width: 594px;
+  height: 19px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2; 
+  margin: 0;
+}
+
+.screen-last__inkan {
+  position: absolute;
+  bottom: 15px;
+  left: 700px; 
+}
+
+.screen-last__years {
+  position: absolute;
+  bottom: 23px;
+  left: 33px;
+  width: 632px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-shrink: 0;
+}
+
+.year-black {
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.year-white {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.screen-last__years-right {
+  position: absolute;
+  bottom: 23px;
+  left: 775px;
+  width: 616px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  flex-shrink: 0;
+}
+
